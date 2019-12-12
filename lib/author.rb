@@ -5,7 +5,6 @@ class Author
   end
   
   @@posts = []
-  
   attr_accessor :name 
   
   def posts
