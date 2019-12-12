@@ -9,7 +9,7 @@ class Post
   
   def author= (writer)
     author.posts << self 
-    @author = writer 
+    @author= writer 
   end 
 
 
